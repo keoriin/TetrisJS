@@ -233,7 +233,7 @@ let drawRect = (x, y, width, height, color) => {
   ctx.fillRect(x, y, width, height);
 };
 
-let drawBackground = () => {
+let drawBackground = () => { //фон редак
   drawRect(0, 0, canvas.width, canvas.height, "#bca0dc");
   for (let i = 0; i < squareCountX + 1; i++) {
     drawRect(
